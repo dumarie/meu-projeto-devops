@@ -1,0 +1,10 @@
+services:
+  site:
+    build: .                    # '.' aponta que está neste diretório
+    ports:
+      - "8080:80"               # '-' define uma lista
+    depends_on:
+      - visitas
+
+  visitas:
+    image: redis:alpine
