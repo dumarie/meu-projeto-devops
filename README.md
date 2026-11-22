@@ -18,9 +18,11 @@ Projeto prático desenvolvido durante o **Bootcamp DevOps 2026 (Instituto Matera
 * `Dockerfile` — Definição da imagem customizada da aplicação
 * `compose.yaml` — Orquestração dos serviços da aplicação e Redis
 
-## 🚀 Como Executar Localmente
+## 🚀 Como rodar
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/dumarie/meu-projeto-devops.git](https://github.com/dumarie/meu-projeto-devops.git)
-   cd meu-projeto-devops
+Clone o repositório e suba os contêineres com o Docker Compose:
+
+```bash
+git clone [https://github.com/dumarie/meu-projeto-devops.git](https://github.com/dumarie/meu-projeto-devops.git)
+cd meu-projeto-devops
+docker compose up -d
